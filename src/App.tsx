@@ -1,13 +1,14 @@
 
 import './App.css'
 import Color from './compoenent/color-generator/Color'
+import StarRating from './compoenent/star-rating'
 
 function App() {
 
 
   return (
     <>
-     <Color/>
+      <StarRating noOfStars={6}/>
     </>
   )
 }
